@@ -33,6 +33,8 @@ ansible-pull -U https://github.com/wesleyglsilva/Ansible.git playbooks/install-h
 *** Referencias
 https://opensource.com/article/19/2/ansible-windows-admin
 https://github.com/ansible/ansible/blob/devel/examples/scripts/ConfigureRemotingForAnsible.ps1
+https://docs.ansible.com/ansible/latest/os_guide/windows_usage.html
+https://4sysops.com/archives/automate-windows-updates-with-ansible/
 https://www.youtube.com/watch?v=gIDywsGBqf4
 
 

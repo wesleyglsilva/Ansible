@@ -1,0 +1,8 @@
+---
+- name: "Uninstall Microsoft Teams"
+  hosts: win
+  tasks:
+  - name: Uninstall Microsoft Teams
+    ansible.windows.win_package:
+      product_id: msteams
+      state: absent

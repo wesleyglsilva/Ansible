@@ -1,8 +1,8 @@
 ---
-- name: "Install multiple packages"
+- name: "Uninstall multiple packages"
   hosts: win
   tasks:
-  - name: Install multiple packages
+  - name: Uninstall multiple packages
     win_chocolatey:
       name: '{{ item }}'
       state: absent
