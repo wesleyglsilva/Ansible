@@ -6,7 +6,6 @@
   
   tasks:
     - name: Install htop
-      win_chocolatey:
-          name:
-           - htop
-          state: present
+      ansible.builtin.apt:
+        name: htop
+        state: present
