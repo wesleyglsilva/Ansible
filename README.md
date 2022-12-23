@@ -24,8 +24,15 @@ ansible_user=+++++++++
 ansible_password=+++++++++ 
 ansible_winrm_server_cert_validation=ignore
 
+*** Criar os playbooks e subir para o github
+
+*** Executar os playbooks a partir do github
+
+ansible-pull -U https://github.com/wesleyglsilva/Ansible.git playbooks/install-htop.yml
+
 *** Referencias
 https://opensource.com/article/19/2/ansible-windows-admin
 https://github.com/ansible/ansible/blob/devel/examples/scripts/ConfigureRemotingForAnsible.ps1
+https://www.youtube.com/watch?v=gIDywsGBqf4
 
 

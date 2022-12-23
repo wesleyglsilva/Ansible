@@ -1,0 +1,12 @@
+---
+- name: "Htop"
+  hosts: localhost
+  connection: local
+  become: true
+  
+  tasks:
+    - name: Install htop
+      win_chocolatey:
+          name:
+           - htop
+          state: present
