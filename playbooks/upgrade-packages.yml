@@ -1,0 +1,8 @@
+---
+- name: "Upgrade installed packages"
+  hosts: win
+  tasks:
+    - name: Upgrade packages
+      win_chocolatey:
+        name: all
+        state: latest

@@ -1,0 +1,12 @@
+---
+- name: "Install multiple packages"
+  hosts: win
+  tasks:
+  - name: Install multiple packages
+    win_chocolatey:
+      name: '{{ item }}'
+      state: present
+    with_items:
+    - procexp
+    - putty
+    - windirstat

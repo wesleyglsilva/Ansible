@@ -1,0 +1,11 @@
+---
+- name: Create user
+  hosts: win
+  tasks:
+  - name: Create ansible user
+    win_user: 
+      name: ansible
+      password: ansible
+      state: present
+#      groups:
+#        - Usuarios 

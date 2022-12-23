@@ -1,0 +1,8 @@
+[win]
+192.168.0.119
+
+[win:vars]
+ansible_connection=winrm 
+ansible_user=solides 
+ansible_password=solides 
+ansible_winrm_server_cert_validation=ignore
