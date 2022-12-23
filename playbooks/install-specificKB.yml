@@ -1,0 +1,11 @@
+---
+- name: "Install specific updates based on the KBs for those updates"
+  hosts: win
+  tasks:
+  - name: Install specific updates based on the KBs for those updates
+    win_updates:
+      category_name:
+      - SecurityUpdates
+      whitelist:
+      - KB4073819
+      - KB4074228
