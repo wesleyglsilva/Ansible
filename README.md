@@ -20,8 +20,8 @@ winrm enumerate winrm/config/Listener
 192.168.0.119
 [win:vars]
 ansible_connection=winrm 
-ansible_user=solides 
-ansible_password=solides 
+ansible_user=+++++++++ 
+ansible_password=+++++++++ 
 ansible_winrm_server_cert_validation=ignore
 
 *** Referencias
